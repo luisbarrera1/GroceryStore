@@ -26,16 +26,22 @@ int main()
                         cout<<"What is the item?"<<endl;
                         cin>> item;
                         cin.ignore();
-                        list[numItems]= item;
+                        
 
 
 
 
-                        if(numItems >= 5)
+                        if(numItems > 4)
                         { 
                                 cout<<"You'll need a bigger list!"<<endl;
+
                         }
+                        else
+                        {
+                        list[numItems]= item;
+
                         numItems++;
+                        }
                 }
 
         }
