@@ -46,7 +46,7 @@ int main()
         for( numItems=0; numItems< 5; numItems++) 
         {  
                 int listNum=numItems+1;
-                cout<<listNum<< " "<< list[numItems]<<endl;
+                cout<<listNum<< list[numItems]<<endl;
         }
 
         return 0;
