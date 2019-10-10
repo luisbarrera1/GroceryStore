@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-        string list[5]={" "}; //array of 5 strings
+        string list[5]; //array of 5 strings
         int numItems = 0;
         char input;
         string item;
@@ -46,7 +46,7 @@ int main()
         for( numItems=0; numItems< 5; numItems++) 
         {  
                 int listNum=numItems+1;
-                cout<<listNum<< list[numItems]<<endl;
+                cout<<listNum<< " "<< list[numItems]<<endl;
         }
 
         return 0;
